@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+nav{
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: darkorange;
+}
+
+.title{
+    color:ghostwhite;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    justify-content: space-around;
+    width: 30%;
+}
+
+a:link{
+    color: ghostwhite;
+}
+
+a:visited{
+    color: ghostwhite;
+}
+
+a:hover{
+    color:black
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url("/FinalProject/Images/slimebackground.jpeg");
+}
+
+.contact-title{
+    margin-top: 100px;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    font-family: 'Abril Fatface';
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+    font-family: 'Abril Fatface';
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input{
+    height: 45px;
+}
+form .submit{
+    background: #ff5722;
+    color: #fff;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+form .submit:hover{
+    background-color:#f44336;
+    cursor: pointer;
+}
+
+footer{
+    clear: both;
+    display:flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: darkorange;
+}
+
+
+
